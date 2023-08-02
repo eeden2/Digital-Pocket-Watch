@@ -1,0 +1,19 @@
+Battery Charger (MCP73831T-5ACI/OT) - https://www.mouser.com/ProductDetail/Microchip-Technology/MCP73831T-5ACI-OT?qs=hH%252bOa0VZEiAcgAcEkuamXg%3D%3D
+Flash (AT45DB081E-SSHN-T) - https://www.mouser.com/ProductDetail/Renesas-Dialog/AT45DB081E-SSHN-T?qs=IS%252B4QmGtzzrT9yP%2Fj4syVA%3D%3D
+Battery - https://www.alibaba.com/product-detail/553535-3-7V-battery-580mah-round_60692201528.html
+Button Switch (ESB-33133) - https://www.mouser.com/ProductDetail/Panasonic/ESB-33133?qs=9gtMhpKs0nEQdT3ey0aRGQ%3D%3D
+Antenna (NN01-001)- https://www.mouser.com/ProductDetail/Ignion/NN01-001?qs=bAKSY%2FctAC4amJyoGr5q7A%3D%3D
+Regulator (SPX3819M5-L-3-3/TR) - https://www.mouser.com/ProductDetail/MaxLinear/SPX3819M5-L-3-3-TR?qs=S%2FCBhQS5rCp1Bb7a%252BD%2FCBQ%3D%3D
+Crystal (ECS-400-10-37B-CKY-TR3) - https://www.mouser.com/ProductDetail/ECS/ECS-400-10-37B-CKY-TR3?qs=TCDPyi3sCW2VtaBG%252B2IQWA%3D%3D
+USB-C (12402012E212A) - https://www.mouser.com/ProductDetail/Amphenol-Commercial-Products/12402012E212A?qs=81r%252BiQLm7BT5J0NqqGfVqg%3D%3D
+Display - https://www.waveshare.com/1.28inch-Touch-LCD.htm
+PMOSFET - https://www.mouser.com/ProductDetail/Vishay-Semiconductors/IRFR9210PBF-BE3?qs=TCDPyi3sCW1nNZLR7LYV3w%3D%3D
+13 Pin - https://www.snapeda.com/parts/TSM-113-02-T-SV-A-P-TR/Samtec/view-part/?ref=samtec_in&t=M20-8771346&con_ref=None
+0 Ohm - https://www.mouser.com/ProductDetail/Ohmite/JR2512X100E?qs=sGAEpiMZZMtlubZbdhIBIM7uh3w%252BIHxmov0Yd5cNh5Y%3D
+22 Ohm - https://www.snapeda.com/parts/CRGP2512F22R/TE%20Connectivity/view-part/?ref=search&t=CRGP2512F22R
+10k Ohm - https://www.mouser.com/ProductDetail/Bourns/CRM2512QJW-103ELF?qs=sGAEpiMZZMtlubZbdhIBIIGRsrtlBp2WUBqhD2Rc9Z4%3D
+2k Ohm - https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/35212K0FT?qs=sGAEpiMZZMtlubZbdhIBIP78WyDTHQZBw0pRcm7%252B2Sk%3D
+5.1K OHms - https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/35215K1FT?qs=sGAEpiMZZMtlubZbdhIBILShZ4hQ8krE5yDLbl1ehhY%3D
+1 uF - https://www.mouser.com/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=sGAEpiMZZMsh%252B1woXyUXj8XyrlVCMIpdh52JwA4NLCo%3D
+10 nF - https://www.mouser.com/ProductDetail/KYOCERA-AVX/02014D103KAT2A?qs=cnDM9bjyeUgAPyHqQrA07A%3D%3D
+

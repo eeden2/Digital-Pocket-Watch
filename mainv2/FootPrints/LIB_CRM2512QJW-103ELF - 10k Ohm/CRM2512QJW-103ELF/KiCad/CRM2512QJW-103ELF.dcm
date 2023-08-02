@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRM2512QJW-103ELF
+D ResPowerQ 2512 10k 5% 2W TC200
+K
+F http://www.bourns.com/data/global/pdfs/CRM0805_1206_2010.pdf
+$ENDCMP
+#
+#End Doc Library

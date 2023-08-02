@@ -1,0 +1,9 @@
+Manufacturer=TDK
+PartNumber=CGA3E3X7T0G106M080AB
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=2.2
+Released=2023-03-07 10:46:38
+Downloaded=2023-07-19 22:40:25
+3D=Y

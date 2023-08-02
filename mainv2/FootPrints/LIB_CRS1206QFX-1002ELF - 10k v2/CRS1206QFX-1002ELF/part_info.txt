@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=CRS1206QFX-1002ELF
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=2.1
+Released=2023-01-31 10:07:15
+Downloaded=2023-07-20 19:16:16
+3D=Y

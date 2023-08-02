@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CGA3E3X7T0G106M080AB
+#/15381971/1127645/2.50/2/2/Capacitor
+DEF CGA3E3X7T0G106M080AB C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "CGA3E3X7T0G106M080AB" 350 150 50 H V L CNN
+F2 "CAPC1608X90N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Chip Capacitors, Capacitance=10?F, LxWxT:1.6x0.8x0.8mm" 350 -150 50 H I L CNN "Description"
+F5 "0.9" 350 -250 50 H I L CNN "Height"
+F6 "810-CGA3E3X7T0G106M0" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/CGA3E3X7T0G106M080AB?qs=A6eO%252BMLsxmQavb0bn66MnA%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CGA3E3X7T0G106M080AB" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

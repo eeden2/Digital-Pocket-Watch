@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CRM2512QJW-103ELF
+#/17232953/1127645/2.50/2/2/Resistor
+DEF CRM2512QJW-103ELF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRM2512QJW-103ELF" 550 150 50 H V L CNN
+F2 "RESC6331X80N" 550 50 50 H I L CNN
+F3 "http://www.bourns.com/data/global/pdfs/CRM0805_1206_2010.pdf" 550 -50 50 H I L CNN
+F4 "ResPowerQ 2512 10k 5% 2W TC200" 550 -150 50 H I L CNN "Description"
+F5 "0.8" 550 -250 50 H I L CNN "Height"
+F6 "652-CRM2512QJW-103E" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CRM2512QJW-103ELF?qs=8Wlm6%252BaMh8Rzg3bRHdWGsA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CRM2512QJW-103ELF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

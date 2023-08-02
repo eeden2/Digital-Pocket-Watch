@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model C1206F105M5RACAUTO7210
+#/12377837/1127645/2.50/2/2/Capacitor
+DEF C1206F105M5RACAUTO7210 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C1206F105M5RACAUTO7210" 350 150 50 H V L CNN
+F2 "C1206" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1012_X7R_OPENMODE_SMD.pdf" 350 -50 50 H I L CNN
+F4 "SMD Auto X7R FO, Ceramic, 1 uF, 20%, 50 VDC, 125 VDC, 125C, -55C, X7R, SMD, MLCC, Open Mode, Automotive Grade, 2.5 % , 500 MOhms, 41 mg, 1206, 3.2mm, 1.6mm, 1.6mm, 0.5mm, 8000, 78  Weeks, 80" 350 -150 50 H I L CNN "Description"
+F5 "" 350 -250 50 H I L CNN "Height"
+F6 "80-C1206F105M5RAUTLR" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=ds50AKTGxA8F1MxATCT6sg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "KEMET" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C1206F105M5RACAUTO7210" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

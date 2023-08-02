@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRS1206QFX-1002ELF
+D ResSurgePowerQ 1206 10k 1% 1/2W TC100
+K
+F http://www.bourns.com/docs/Product-Datasheets/CRS-Q.pdf
+$ENDCMP
+#
+#End Doc Library

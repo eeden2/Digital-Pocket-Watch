@@ -1,0 +1,9 @@
+Manufacturer=KEMET
+PartNumber=C2220X205K1RLCAUTO
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=4.1
+Released=2022-03-28 06:32:51
+Downloaded=2023-07-19 22:48:42
+3D=Y

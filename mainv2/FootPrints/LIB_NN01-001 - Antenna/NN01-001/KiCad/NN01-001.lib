@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NN01-001
+#/13818492/1127645/2.50/4/4/Antenna
+DEF NN01-001 ANT 0 30 Y Y 1 F N
+F0 "ANT" 950 300 50 H V L CNN
+F1 "NN01-001" 950 200 50 H V L CNN
+F2 "NN01001" 950 100 50 H I L CNN
+F3 "http://www.ignion.io/files/UM_NN01-001.pdf" 950 0 50 H I L CNN
+F4 "Antennas Reach Xtend 2.4 GHz please refer here for design assistance at http://fractusantennas.com/fast-track-project/" 950 -100 50 H I L CNN "Description"
+F5 "1" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Ignion" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "NN01-001" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X FEED 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X NC_2 3 1100 0 200 L 50 50 0 0 P
+X NC_3 4 1100 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

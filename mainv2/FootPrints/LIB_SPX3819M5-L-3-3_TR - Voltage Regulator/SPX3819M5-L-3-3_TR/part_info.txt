@@ -1,0 +1,9 @@
+Manufacturer=EXAR
+PartNumber=SPX3819M5-L-3-3/TR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2018-08-10 13:08:09
+Downloaded=2023-07-19 17:13:57
+3D=Y

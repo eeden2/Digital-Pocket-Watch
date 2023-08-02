@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SPX3819M5-L-3-3_TR
+D EXAR SPX3819M5-L-3-3/TR, Low Noise LDO Voltage Regulator, 100mA, 3.3 V, 1%, 2.5  16 Vin 5-Pin, SOT-23
+K
+F https://componentsearchengine.com/Datasheets/1/SPX3819M5-L-3-3_TR.pdf
+$ENDCMP
+#
+#End Doc Library

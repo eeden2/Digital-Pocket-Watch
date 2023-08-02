@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCT0603HZ0000ZP500
+D Thin Film Resistors - SMD MCT 0603 Jumper  VG01 P5
+K
+F http://www.vishay.com/docs/28705/mcx0x0xpro.pdf
+$ENDCMP
+#
+#End Doc Library

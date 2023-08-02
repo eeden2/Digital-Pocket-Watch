@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model JR2512X100E
+#/2305626/1127645/2.50/2/3/Resistor
+DEF JR2512X100E R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "JR2512X100E" 550 150 50 H V L CNN
+F2 "RESC6430X92N" 550 50 50 H I L CNN
+F3 "https://ms.componentsearchengine.com/Datasheets/2/JR2512X100E.pdf" 550 -50 50 H I L CNN
+F4 "RESISTOR JUMPER, 200U, 2W, 2512" 550 -150 50 H I L CNN "Description"
+F5 "0.92" 550 -250 50 H I L CNN "Height"
+F6 "588-JR2512X100E" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Ohmite/JR2512X100E?qs=0lSvoLzn4L%2F9y5fVfAGbOA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Ohmite" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "JR2512X100E" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

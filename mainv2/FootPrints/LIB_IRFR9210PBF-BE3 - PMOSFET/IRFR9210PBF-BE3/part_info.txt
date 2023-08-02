@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=IRFR9210PBF-BE3
+PartCategory=MOSFET (P-Channel)
+PackageCategory=Other
+PinCount=3
+Version=1.5
+Released=2023-07-14 11:50:01
+Downloaded=2023-07-20 16:25:00
+3D=N

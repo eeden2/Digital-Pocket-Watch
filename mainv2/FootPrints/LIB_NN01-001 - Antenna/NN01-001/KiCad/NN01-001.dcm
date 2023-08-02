@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NN01-001
+D Antennas Reach Xtend 2.4 GHz please refer here for design assistance at http://fractusantennas.com/fast-track-project/
+K
+F http://www.ignion.io/files/UM_NN01-001.pdf
+$ENDCMP
+#
+#End Doc Library

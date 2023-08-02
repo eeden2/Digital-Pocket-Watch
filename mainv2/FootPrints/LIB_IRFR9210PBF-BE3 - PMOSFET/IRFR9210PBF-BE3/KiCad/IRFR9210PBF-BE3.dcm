@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRFR9210PBF-BE3
+D MOSFET P-CHANNEL 200V
+K
+F https://www.vishay.com/docs/91281/sihfr921.pdf
+$ENDCMP
+#
+#End Doc Library

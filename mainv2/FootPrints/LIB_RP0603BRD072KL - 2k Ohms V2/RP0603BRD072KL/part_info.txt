@@ -1,0 +1,9 @@
+Manufacturer=YAGEO
+PartNumber=RP0603BRD072KL
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.1
+Released=2023-05-17 03:17:31
+Downloaded=2023-07-20 19:27:45
+3D=Y

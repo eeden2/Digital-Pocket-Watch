@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RP0603BRD072KL
+D Thin Film Resistors - SMD 1/10 Wat 2K Ohm 0.1% 0603 AEC-Q200
+K
+F https://www.mouser.es/datasheet/2/447/PYu_RP_51_RoHS_L_0-3071169.pdf
+$ENDCMP
+#
+#End Doc Library

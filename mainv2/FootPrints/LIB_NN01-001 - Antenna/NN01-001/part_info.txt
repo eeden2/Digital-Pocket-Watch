@@ -1,0 +1,9 @@
+Manufacturer=Ignion
+PartNumber=NN01-001
+PartCategory=Antenna
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2021-04-16 11:02:28
+Downloaded=2023-07-19 18:50:20
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT45DB081E-SSHN-B
+D The AT45DB081E DataFlash is a member of our System Enhancing class of code and data storage solutions designed with an advanced dual SRAM buffer architecture that makes it the most efficient memory for data logging. It also incorporates a suite of advanced features that save system power, reduce processor overhead, simplify software development, and provide comprehensive data security and integrity options.
+K
+F https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dataflash-spi-memory/at45db081e-8mbit-17-v-36-v-range-spi-serial-flash-memory
+$ENDCMP
+#
+#End Doc Library

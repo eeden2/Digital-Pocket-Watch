@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-400-10-37B-CKY-TR3
+D Crystals 40.000 MHz 10pF ECX-1637B 10/10 ppm -30 ~ +85C 1 ppm Aging 2016 4-SMD RoHS
+K
+F https://ecsxtal.com/store/pdf/ECX-1637B.pdf
+$ENDCMP
+#
+#End Doc Library

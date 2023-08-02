@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Crystal Oscillator")(type "KiCad")(uri "/home/mrglade/Documents/DPW Project/main/ECS-400-10-37B-CKY-TR3.kicad_sym")(options "")(descr ""))
+)

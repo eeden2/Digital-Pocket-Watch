@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GJM1555C1H3R3WB01D
+D Capacitor GJM15_0.10 L=1.0mm W=0.5mm T=0.5mm
+K
+F https://psearch.en.murata.com/capacitor/product/GJM1555C1H3R3WB01%23.html
+$ENDCMP
+#
+#End Doc Library

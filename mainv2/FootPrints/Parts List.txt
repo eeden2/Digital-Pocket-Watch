@@ -16,4 +16,5 @@ PMOSFET - https://www.mouser.com/ProductDetail/Vishay-Semiconductors/IRFR9210PBF
 5.1K OHms - https://www.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/35215K1FT?qs=sGAEpiMZZMtlubZbdhIBILShZ4hQ8krE5yDLbl1ehhY%3D
 1 uF - https://www.mouser.com/ProductDetail/KEMET/C1206F105M5RACAUTO7210?qs=sGAEpiMZZMsh%252B1woXyUXj8XyrlVCMIpdh52JwA4NLCo%3D
 10 nF - https://www.mouser.com/ProductDetail/KYOCERA-AVX/02014D103KAT2A?qs=cnDM9bjyeUgAPyHqQrA07A%3D%3D
-
+2.2nH - https://www.mouser.com/ProductDetail/Bourns/CE201210-2N2D?qs=8tpky8Qe03K8mDIr14buog%3D%3D
+3.3 pF - https://www.mouser.com/ProductDetail/Murata-Electronics/GJM1555C1H3R3WB01D?qs=sGAEpiMZZMsh%252B1woXyUXj09KMdsDkZmUyxJ3F05tU6s%3D

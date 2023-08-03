@@ -1,0 +1,16 @@
+.CE201210-2N2D :1 ;Fixed Inductors 2.2nH .3% .85mm Multi Layer
+INDC2012X103N
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CE201210-2N2D
+~!Mouser Part Number (652-CE201210-2N2D)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=652-CE201210-2N2D)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (CE201210-2N2D)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/CE201210-2N2D.pdf)
+~!Height (1.03mm)
+~!3D_Model (CE201210-2N2D)
+CE201210-2N2D
+1.1!U 2.1!U 

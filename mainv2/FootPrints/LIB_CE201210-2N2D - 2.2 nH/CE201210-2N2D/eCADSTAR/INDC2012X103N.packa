@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CE201210-2N2D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-06-03-05:49:11)
+    (mountForm default
+        (footprintRef "INDC2012X103N")
+        (spec "System")
+    )
+)

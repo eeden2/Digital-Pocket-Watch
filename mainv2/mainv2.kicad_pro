@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.25,
-          "width": 0.825
+          "drill": 1.3,
+          "height": 1.95,
+          "width": 1.95
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -442,7 +442,8 @@
     "net_colors": null,
     "netclass_assignments": {
       "Net-(IC3-VCC)": "VDD_SPI",
-      "Net-(J3-Pin_1)": "VDD_SPI"
+      "Net-(U1-VDD_SPI{slash}GPIO27)": "VDD_SPI",
+      "unconnected-(J4-Pad1)": "VDD_SPI"
     },
     "netclass_patterns": [
       {

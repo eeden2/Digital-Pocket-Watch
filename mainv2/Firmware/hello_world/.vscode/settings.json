@@ -1,0 +1,8 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "cmake.configureOnOpen": true,
+  "files.associations": {
+    "esp_log.h": "c",
+    "sdkconfig.h": "c"
+  }
+}

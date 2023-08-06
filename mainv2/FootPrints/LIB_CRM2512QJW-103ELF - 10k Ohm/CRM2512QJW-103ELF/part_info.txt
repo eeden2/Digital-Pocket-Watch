@@ -1,9 +1,0 @@
-Manufacturer=Bourns
-PartNumber=CRM2512QJW-103ELF
-PartCategory=Resistor
-PackageCategory=Resistor Chip
-PinCount=2
-Version=1.1
-Released=2023-03-07 11:09:02
-Downloaded=2023-07-20 16:49:48
-3D=Y

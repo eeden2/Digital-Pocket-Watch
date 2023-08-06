@@ -1,9 +1,0 @@
-Manufacturer=Ohmite
-PartNumber=JR2512X100E
-PartCategory=Resistor
-PackageCategory=Resistor Chip
-PinCount=2
-Version=1.1
-Released=2021-01-06 11:54:48
-Downloaded=2023-07-20 16:45:34
-3D=Y

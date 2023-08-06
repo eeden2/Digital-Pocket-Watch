@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP JR2512X100E
-D RESISTOR JUMPER, 200U, 2W, 2512
-K
-F https://ms.componentsearchengine.com/Datasheets/2/JR2512X100E.pdf
-$ENDCMP
-#
-#End Doc Library

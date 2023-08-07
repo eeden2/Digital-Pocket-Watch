@@ -155,7 +155,7 @@ void app_main(void)
         .mode = GPIO_MODE_OUTPUT,
         .pin_bit_mask = 1ULL << LCD_BL
     };
-
+ 
     //Setting GPIO pins to alternate fucntions via the GPIO Matrix
     gpio_reset_pin(GPIO_NUM_6);
     gpio_iomux_in(GPIO_NUM_6, FSPICLK_OUT_IDX);
@@ -253,6 +253,7 @@ void app_main(void)
 
     ESP_LOGI(TAG, "Start example GUI");
     lvgl_demo_ui(disp);
+    
 
     printf("Hello world!\n");
     /* Print chip information */

@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "/home/mrglade/Documents/DigitalPocketWatch/Digital-Pocket-Watch/mainv2/Firmware/hello_world/main"
+    "cmake.sourceDirectory": "/home/mrglade/Documents/DigitalPocketWatch/Digital-Pocket-Watch/mainv2/Firmware/hello_world/main",
+    "files.associations": {
+        "esp_lcd_panel_vendor.h": "c"
+    }
 }

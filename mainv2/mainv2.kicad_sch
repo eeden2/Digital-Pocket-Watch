@@ -4,6 +4,11 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Prototype Digital Pocket Watch")
+    (company "Evan Eden")
+  )
+
   (lib_symbols
     (symbol "AMPHENOL_12401948E412A:12401948E412A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -12.7 13.462 0)

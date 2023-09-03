@@ -14,6 +14,7 @@
     "idf.pythonBinPath": "/home/mrglade/.espressif/python_env/idf5.1_py3.9_env/bin/python",
     "idf.toolsPath": "/home/mrglade/.espressif",
     "files.associations": {
-        "esp_lcd_gc9a01.h": "c"
+        "esp_lcd_gc9a01.h": "c",
+        "gpio.h": "c"
     }
 }

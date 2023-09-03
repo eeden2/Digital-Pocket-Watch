@@ -31,11 +31,13 @@ static esp_err_t cst816s_register_read(uint8_t reg_addr, uint8_t *data, size_t l
 /*
     This is the to make it convenient to write to the the CST816S registers.
 */
+
 static esp_err_t cst816s_register_write_byte(uint8_t reg_addr,uint8_t data)
 {
     int ret;
     uint8_t write_buf[2] = {reg_addr,data};
-    ret = i2c_master_write_to_device(I2C_MASTER_NUM,CST816S_BASE_ADDRESS,write_buf,sizeOf(write_buf),I2C_MASTER_TIMEOUT_MS/portTICK_PERIOD_MS);
+    size_t w = sizeof(write_buf);
+    ret = i2c_master_write_to_device(I2C_MASTER_NUM,CST816S_BASE_ADDRESS,write_buf,sizeof(write_buf),I2C_MASTER_TIMEOUT_MS/portTICK_PERIOD_MS);
     return ret;
 }
 

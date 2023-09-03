@@ -1,16 +1,15 @@
 #include <stdio.h>
 #include <lvgl.h>
-#include <include/esp_lcd_gc9a01.h>
 #include <inttypes.h>
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "esp_timer.h"
+#include <esp_timer.h>
 #include "driver/gpio.h"
 #include "esp_log.h"
 #include "esp_err.h"
-#include "gpio_sig_map.h"
 #include "hal/lcd_types.h"
+#include "gpio.h"
 #include "esp_lcd_panel_io.h"
 #include "esp_lcd_gc9a01.h"
 #include "esp_lcd_panel_vendor.h"
@@ -18,7 +17,18 @@
 #include "protocols/I2C.c"
 #include "protocols/SPI.c"
 #include "protocols/WIFI.c"
+#include "signal.h"
+#include "spi_master.h"
+#include "ui/ui.c"
+#include "protocols/timer_replacement.h" // This file was made due to the esp_timer.h not allowing use of its defined functions.
 
+#define FSPIQ_IN_IDX                  64
+#define FSPIQ_OUT_IDX                 64
+#define FSPID_IN_IDX                  65
+#define FSPID_OUT_IDX                 65
+#define FSPICS0_IN_IDX                68
+#define FSPICS0_OUT_IDX               68
+#define LCD_HOST SPI2_HOST
 
 #define portTICK_PERIOD_MS      1                       //This was defined manually because my IDE was not reading it from "sdkconfig.h"
 
@@ -35,9 +45,6 @@
 #define FIRST_SWITCH            GPIO_NUM_8
 #define SECOND_SWITCH           GPIO_NUM_9
 
-#define LCD_HOST                SPI
-
-static const char *TAG = "example";
 
 extern void lvgl_demo_ui(lv_disp_t *disp);
 
@@ -115,7 +122,7 @@ void app_main(void)
  
     //Setting GPIO pins to alternate fucntions via the GPIO Matrix
     gpio_reset_pin(GPIO_NUM_6);
-    gpio_iomux_in(GPIO_NUM_6, FSPICLK_OUT_IDX);
+    gpio_iomux_in(GPIO_NUM_6, FSPID_IN_IDX);
     gpio_reset_pin(GPIO_NUM_7);
     gpio_iomux_in(GPIO_NUM_7, FSPID_OUT_IDX);
     gpio_reset_pin(GPIO_NUM_2);
@@ -133,7 +140,7 @@ void app_main(void)
         .quadhd_io_num = -1,
         .max_transfer_sz = LCD_H_RES * 80 * sizeof(uint16_t),
     };
-    ESP_ERROR_CHECK(spi_bus_initialize(LCD_HOST, &buscfg, SPI_DMA_CH_AUTO));
+    ESP_ERROR_CHECK(spi_bus_initialize(FSPIQ, &buscfg, SPI_DMA_CH_AUTO));
     
     //After initializing the SPI Bus config, we now can config the SPI interface with the LCD API
     esp_lcd_panel_io_handle_t panel_IO = NULL;
@@ -193,16 +200,30 @@ void app_main(void)
     lv_disp_set_draw_buffers(&disp_buf, buf1, buf2, LCD_H_RES*20);
 
     ESP_LOGI(TAG, "Register Display Driver to LVGL.");
-    lv_disp_set_driver_data(&disp_drv, NULL);
+    //lv_disp_set_driver_data(&disp_drv, NULL);
     disp_drv.hor_res = LCD_H_RES;
     disp_drv.ver_res = LCD_V_RES;
     disp_drv.flush_cb = lvgl_flush_cb;
     disp_drv.drv_update_cb = lvgl_port_update_callback;
     disp_drv.draw_buf = &disp_buf;
-    disp_drv.user_data = panel_handle;
-    lv_disp_t *disp = lv_disp_set_driver_data(&disp_drv);
+    disp_drv.user_data = handle_my_panel;
+    
+    
+    //This is the meat of what starts the squarline interface UI.
+    lv_disp_t *disp = lv_disp_set_driver_data(&disp_drv,NULL);
+    lv_theme_t * theme = lv_theme_basic_init(disp);
+    lv_disp_set_theme(disp, theme);
+    ui_watch_analog_screen_init();
+    ui_camera_screen_init();
+    ui____initial_actions0 = lv_obj_create(NULL);
+    lv_obj_add_event_cb(ui____initial_actions0,ui_event____initial_actions0,LV_EVENT_ALL, NULL);
 
-     ESP_LOGI(TAG, "Install LVGL tick timer");
+    lv_disp_load_scr(ui____initial_actions0);
+    lv_disp_load_scr(ui_watch_analog);
+    //This is the end of the meat for starting the UI.
+
+
+    ESP_LOGI(TAG, "Install LVGL tick timer");
     // Tick interface for LVGL (using esp_timer to generate 2ms periodic event)
     const esp_timer_create_args_t lvgl_tick_timer_args = {
         .callback = &increase_lvgl_tick,
